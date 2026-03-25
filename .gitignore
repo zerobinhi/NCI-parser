@@ -1,18 +1,52 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# =========================
+# Build results
+# =========================
+bin/
+obj/
 
-# Other files and folders
-.settings/
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# =========================
+# Rider / VSCode（可选）
+# =========================
+.idea/
+.vscode/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+packages/
+
+# =========================
+# Generated files
+# =========================
+*.cache
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.dll
+
+# =========================
+# Publish
+# =========================
+publish/
